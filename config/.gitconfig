@@ -1,0 +1,37 @@
+[user]
+	name = viprhz
+	email = viprhz@gmail.com
+[color]
+        ui = auto
+        diff   = always
+    	branch = auto
+    	status = auto
+    	grep   = always
+[core]
+        editor = vim
+[alias]
+	    a   = add
+	    b   = branch
+	    c   = commit
+	    co  = checkout
+	    d   = diff
+	    des = describe --tags
+	    l   = log
+	    lc  = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset %Cblue%cn%Creset' --abbrev-commit --date=relative
+	    lg  = log --graph
+	    m   = merge
+	    pl  = pull
+	    pu  = push
+	    s   = status -s
+	    sb  = status -sb
+	    t   = tag
+	    untrack = rm -r --cached
+	    merge-branch-file = checkout --merge 
+	    rb  = rebase
+    
+[merge]
+    	tool = vimdiff
+[github]
+    	user = viprhz
+[core]
+    	pager = cat
