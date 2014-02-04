@@ -1,4 +1,4 @@
 dotfiles
 ========
 
-dotfiles includes OS X App Setting.
+dotfiles includes OS X Apps Setting.
