@@ -557,31 +557,10 @@ alias egrep='egrep -I --color=auto'
 alias cal='cal -3'
 alias freeze='kill -STOP'
 #alias ls=$'ls -h --color=auto -X --time-style="+\e[33m[\e[32m%Y-%m-%d \e[35m%k:%M\e[33m]\e[m"'
-# Shortcuts
-alias d="cd ~/Dropbox"
-alias dl="cd ~/Downloads"
-alias dt="cd ~/Desktop"
-alias p="cd ~/projects"
-alias g="git"
-alias h="history"
-alias j="jobs"
-alias ls='ls -GhF'
+alias ls='ls -h'
 alias vi='vim'
-alias ll='ls -GlhF'
-
-# List all files colorized in long format, including dot files
-alias la="ls -GlhAF ${colorflag}"
-#alias la='ls -al'
-
-# List only directories
-alias lsd="ls -lF ${colorflag} | grep --color=never '^d'"
-
-
-# IP addresses
-alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
-alias localip="ipconfig getifaddr en1"
-alias ips="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[0-9]\+\)\|[a-fA-F0-9:]\+\)' | awk '{ sub(/inet6? (addr:)? ?/, \"\"); print }'"
-
+alias ll='ls -l'
+alias la='ls -al'
 alias df='df -Th'
 alias du='du -h'
 #show directories size
