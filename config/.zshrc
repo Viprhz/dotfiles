@@ -575,6 +575,9 @@ alias la="ls -GlhAF ${colorflag}"
 # List only directories
 alias lsd="ls -lF ${colorflag} | grep --color=never '^d'"
 
+# HTTP
+alias http="python -m SimpleHTTPServer 8080"
+
 
 # IP addresses
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
