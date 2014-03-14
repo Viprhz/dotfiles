@@ -570,7 +570,7 @@ alias ll='ls -GlhF'
 
 # List all files colorized in long format, including dot files
 alias la="ls -GlhAF ${colorflag}"
-#alias la='ls -al'
+#alias la='ls -Al'
 
 # List only directories
 alias lsd="ls -lF ${colorflag} | grep --color=never '^d'"
